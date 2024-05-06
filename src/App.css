@@ -1,0 +1,23 @@
+/* @import "../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../node_modules/@syncfusion/ej2-layouts/styles/material.css"; */
+
+.App {
+  height: 350px;
+  width: 520px;
+  margin: 30px auto 30px;
+}
+.App .state-progress {
+  outline-color: #007bff;
+  background-color: #007bff;
+  --dot-size: 25px;
+}
+.App .state-success {
+  outline-color: #28a745;
+  background-color: #28a745;
+}
+.App .completed.e-connector::after {
+  border-color:#28a745;
+}
+.App .intermediate.e-connector::after {
+  border-style: dashed;
+}
